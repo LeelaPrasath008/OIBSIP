@@ -1,75 +1,28 @@
-# Iris Flower Classification 🌸
+# OIBSIP — Oasis Infobyte Internship
 
-## Oasis Infobyte Data Science Internship — Task 1
+Welcome to my project repository for the Oasis Infobyte Internship.
 
-### Project Overview
+This repository contains my internship tasks, source code, documentation, and project results.
 
-This project uses machine learning to classify Iris flowers into three species: Setosa, Versicolor, and Virginica, based on their sepal and petal measurements.
+## Data Science Projects
 
-### Objectives
+### Task 1: Iris Flower Classification
 
-* Explore the Iris dataset.
-* Perform exploratory data analysis (EDA).
-* Visualize flower measurements using pairplots and boxplots.
-* Train and compare two machine learning models.
-* Evaluate the models using accuracy, confusion matrices, precision, recall, and F1-score.
+A machine learning project that classifies Iris flowers into Setosa, Versicolor, and Virginica using flower measurements.
 
-### Technologies Used
+**Models used:** Logistic Regression and K-Nearest Neighbours (KNN).
 
-* Python
-* Jupyter Notebook
-* pandas
-* scikit-learn
-* Matplotlib
-* Seaborn
+**Test accuracy:** 93.33% for both models.
 
-### Dataset
+**Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, and Jupyter Notebook.
 
-The dataset is loaded using `sklearn.datasets.load_iris()`.
+## Repository Structure
 
-* **Total samples:** 150
-* **Features:** 4 numerical measurements
-* **Target classes:** Setosa, Versicolor, Virginica
-* **Missing values:** None
+* `DataScience-Task1-IrisFlowerClassification/` — Iris classification notebook and project documentation.
 
-### Workflow
+## Internship
 
-1. Load and inspect the dataset.
-2. Perform exploratory data analysis.
-3. Create pairplots and boxplots.
-4. Split the dataset into 80% training data and 20% testing data.
-5. Train Logistic Regression and K-Nearest Neighbours (KNN).
-6. Evaluate and compare model performance.
+**Organization:** Oasis Infobyte
+**Track:** Data Science
 
-### Results
-
-| Model                      | Test Accuracy |
-| -------------------------- | ------------: |
-| Logistic Regression        |        93.33% |
-| K-Nearest Neighbours (KNN) |        93.33% |
-
-Both models correctly classified 28 out of 30 test samples. Logistic Regression was selected as the preferred model for this experiment based on its per-class performance.
-
-### How to Run
-
-1. Install Python or Anaconda.
-
-2. Install the required libraries:
-
-   `pip install pandas scikit-learn matplotlib seaborn notebook`
-
-3. Open a terminal in the project folder and run:
-
-   `jupyter notebook`
-
-4. Open `Iris_Flower_Classification.ipynb`.
-
-5. Run the notebook cells from top to bottom.
-
-### Limitations
-
-The evaluation uses a single train-test split with 30 test samples. Results may vary with different data splits, so further validation is recommended.
-
-### Conclusion
-
-This project demonstrates a machine learning classification workflow involving data exploration, visualization, model training, and evaluation using the Iris dataset.
+More project details are available in each project's folder.

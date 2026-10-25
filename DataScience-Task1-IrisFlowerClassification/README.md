@@ -73,3 +73,7 @@ The evaluation uses a single train-test split with 30 test samples. Results may 
 ### Conclusion
 
 This project demonstrates a machine learning classification workflow involving data exploration, visualization, model training, and evaluation using the Iris dataset.
+
+## Author
+
+Leelaprasath V.
